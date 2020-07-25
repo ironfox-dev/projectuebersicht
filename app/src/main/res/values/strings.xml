@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ProjectTuebersicht</string>
+    <string name="sanita">Sanitäranlage Gelsenkirchen Buer Gesamtschule Vogelgartenstraße 41b</string>
+    <string name="Klimaanlage">Klimaanlage Sparkasse Duisburg</string>
+    <string name="B002124590">B002124590</string>
 </resources>
