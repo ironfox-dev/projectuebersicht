@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_edge"
+    android:padding="20dp"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="0dp"
+                android:background="@color/Notfall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text="Ist"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginBottom="8dp"/>
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="170dp"
+                android:background="@color/Notfall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text="Soll"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/segoe_ui"
+                android:layout_marginBottom="8dp"/>
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:background="@color/Notfall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="0dp"
+                android:background="@color/Notfall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="250dp"
+                android:background="@color/warnung" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="240dp"
+                android:background="@color/Notfall" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/text" />
+
+
+</LinearLayout>
